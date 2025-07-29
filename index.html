@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Basic HTML5 web page with accessible layout and SEO optimization.">
+  <meta name="keywords" content="HTML5, accessibility, SEO, web development, semantic tags">
+  <meta name="author" content="Immaculate Khaoma">
+  <title>Accessible HTML5 Registration Page</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>User Registration Portal</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#form">Register</a></li>
+        <li><a href="#users">Users</a></li>a
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Project</h2>
+      <p>This is a basic web development project that demonstrates how to build a basic HTML5 webpage using semantic<br>
+        elements. It includes accessible markup, a registration form, and structured user data, all optimized for search<br>
+        engines and screen readers.</p>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form" aria-labelledby="form-heading"> 
+      <h2 id="form-heading">User Registration</h2>
+      <form action="/submit" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="e.g., John Doe" required><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="e.g., johndoe@yahoo.com" required><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+254712345678" required><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+
+    <!-- Users Table -->
+    <section id="users" aria-labelledby="users-heading">
+      <h2 id="users-heading">Registered Users Information</h2>
+      <table>
+        <caption>Sample Registered User Information</caption>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>john.doe@yahoo.com</td>
+            <td>+254712345678</td>
+          </tr>
+          <tr>
+            <td>Mary Atieno</td>
+            <td>matieno22@gmail.com</td>
+            <td>+254723456789</td>
+          </tr>
+          <tr>
+            <td>Immaculate Khaoma</td>
+            <td>immakhaoma@outlook.com</td>
+            <td>+254734567890</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Extra Resources Section -->
+    <section id="resources" aria-labelledby="resources-heading">
+      <h2 id="resources-heading">Helpful Resources</h2>
+      <p>For more HTML tutorials, visit <a href="https://www.w3schools.com/html/default.asp">W3schools</a></p>
+      <p>For basic programming tutorials, visit <a href="https://www.w3schools.com/programming/index.php">W3schools</a></p>
+      <p>For web development tutorials, visit <a href="https://academy.powerlearnprojectafrica.org/module/666c1cd07d960ad7359a3d14?study=false">PLP Africa</a></p>
+    </section>
+    <hr>
+    <footer>
+      <p>&copy; 2025 <a href="https://github.com/khaif-dev">khaif-dev.llc.</a> All rights reserved.</p>
+      
+    </footer>
+      
